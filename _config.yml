@@ -1,6 +1,6 @@
 title: Dwarf debugger
 description: Full featured multi arch/os debugger built on top of PyQt5 and frida
-author: iGio90
+author: Dwarf debugger
 github: https://github.com/iGio90/Dwarf
 about: For reverse engineers, crackers and security analyst
 disqus_shortname:

@@ -4,7 +4,7 @@ title: Installation
 nav_order: 2
 ---
 
-# Configuration
+# Installation
 {: .no_toc }
 
 

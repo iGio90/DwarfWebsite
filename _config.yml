@@ -1,13 +1,55 @@
-title: Dwarf debugger
-description: Full featured multi arch/os debugger built on top of PyQt5 and frida
-author: Dwarf debugger
-github: https://github.com/iGio90/Dwarf
-about: For reverse engineers, crackers and security analyst
-disqus_shortname:
-google_analytics:
-avatar_url: /dwarf.png
-
 gems:
   - jekyll-remote-theme
 
 remote_theme: allejo/jekyll-docs-theme
+
+name: Dwarf debugger
+
+project:
+  version: 1.0.0
+  download_url: https://github.com/iGio90/Dwarf
+
+license:
+  software: MIT License
+  software_url: http://opensource.org/licenses/MIT
+
+  docs: CC BY 3.0
+  docs_url: http://creativecommons.org/licenses/by/3.0/
+
+links:
+  header:
+    - title: GitHub
+      url: https://github.com/iGio90/Dwarf
+  footer:
+    - title: GitHub
+      url: https://github.com/iGio90/Dwarf
+    - title: Issues
+      url: https://github.com/iGio90/Dwarf/issues?state=open
+
+ui:
+  header:
+    color1: "#080331"
+    color2: "#673051"
+    trianglify: true
+
+social:
+  github:
+    user: iGio90
+    repo: Dwarf
+  twitter:
+    enabled: false
+    via:
+    hash:
+    account:
+  facebook:
+    enabled: false
+    profileUrl:
+
+analytics:
+  google: UA-123456-1
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock

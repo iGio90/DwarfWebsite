@@ -6,10 +6,14 @@
 
   <div class="page-wrap">
     <div class="side-bar">
-      <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">{{ site.title }}</a>
+      <p style="text-align: center">
+        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">{{ site.title }}</a>
+      </p>
       <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
       <div class="navigation main-nav js-main-nav">
-        <span style="text-align:center"><img src="{{ site.url }}{{ site.baseurl }}{{ site.icon }}"></span>
+        <p style="text-align:center">
+          <img src="{{ site.url }}{{ site.baseurl }}{{ site.icon }}">
+        </p>
 
         {% include nav.html %}
       </div>

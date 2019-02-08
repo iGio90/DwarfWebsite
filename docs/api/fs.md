@@ -19,15 +19,6 @@ fs class exposes functions from wrapped libc api, such as popen etc. and allows 
 
 ---
 
-## allocateRw
-```javascript
-var buf = fs.allocateRw(1024);
-```
-
-> allocate memory in the heap with read and write perm
-
----
-
 #### fclose
 #### fgets
 #### fileno
@@ -50,6 +41,15 @@ while ((read = fs.getline(buf, len, f)) !== -1) {
 }
 fs.fclose(f);
 ```
+
+---
+
+## allocateRw
+```javascript
+var buf = fs.allocateRw(1024);
+```
+
+> allocate memory in the heap with read and write perm
 
 ---
 

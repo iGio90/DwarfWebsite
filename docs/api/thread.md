@@ -1,6 +1,6 @@
 ---
 layout: default
-title: thread
+title: Thread
 parent: Api
 nav_order: 6
 ---

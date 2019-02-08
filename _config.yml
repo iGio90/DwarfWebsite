@@ -1,0 +1,57 @@
+title: Dwarf debugger
+description: Full featured multi arch/os debugger built on top of PyQt5 and frida
+author: iGio90
+github: https://github.com/iGio90/Dwarf
+about: For reverse engineers, crackers and security analyst
+disqus_shortname:
+google_analytics:
+avatar_url: /dwarf.png
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/iGio90"
+
+share:
+  twitter_username: iGio90
+  fb_appid:
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://igio90.github.io/DwarfWebsite"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']

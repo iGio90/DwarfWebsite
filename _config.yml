@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 title: Dwarf debugger
+show_downloads: true
 description: Full featured multi arch/os debugger built on top of PyQt5 and frida

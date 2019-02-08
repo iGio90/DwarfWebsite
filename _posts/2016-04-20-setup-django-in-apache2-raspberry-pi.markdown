@@ -27,7 +27,7 @@ Listen 192.168.1.27:8001
     WSGIDaemonProcess pydash display-name=%{GROUP} python-path=/var/www/pydash
     WSGIProcessGroup pydash
     WSGIScriptAlias / /var/www/pydash/pydash/wsgi.py
-    Alias /static /var/www/pydash/static/
+    Alias /static /var/www/pydash./static/
     Alias /media /var/www/pydash/media/
 </VirtualHost>
 {% endhighlight %}

@@ -6,8 +6,6 @@
 
 ### What is Dwarf
 
-![Dwarf](https://github.com/iGio90/Dwarf/raw/master/ui/dwarf.png)
-
 As the title suggest, dwarf is a debugger, built on top of various frameworks and logics to simplify my life in reverse engineering tasks.
 In the beginning, it was an experiment and a first approach to PyQt in the attempt to give an ui to [frida](http://frida.re).
 It was mainly designed to work on Android but later, with a small effort, the support for iOS as been added with ease since they share the same arch.

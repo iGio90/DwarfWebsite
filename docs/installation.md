@@ -34,13 +34,17 @@ python3 dwarf.py -p com.my.target -sp
 
 You can install keystone-engine to enable assembler:
 
-```$xslt
+
 Windows
-x86: https://github.com/keystone-engine/keystone/releases/download/0.9.1/keystone-0.9.1-python-win32.msi
-x64: https://github.com/keystone-engine/keystone/releases/download/0.9.1/keystone-0.9.1-python-win64.msi
+
+[x86](https://github.com/keystone-engine/keystone/releases/download/0.9.1/keystone-0.9.1-python-win32.msi)
+[x64](https://github.com/keystone-engine/keystone/releases/download/0.9.1/keystone-0.9.1-python-win64.msi)
 
 OSX / Unix
+
+```bash
 pip3 install keystone-engine
 ```
+
 
 

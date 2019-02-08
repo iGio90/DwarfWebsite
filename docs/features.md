@@ -1,10 +1,10 @@
 ---
-layout: post
-title: Installation
-nav_order: 3
+layout: page
+title: Api
+nav_order: 2
 ---
 
-# Installation
+# Configuration
 {: .no_toc }
 
 

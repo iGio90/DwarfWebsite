@@ -28,11 +28,11 @@ Dwarf can debug on any operating system as a target and run on any desktop opera
 
 ## Why you **shouldn't** use Dwarf.
 
-> In the "reverse engineering" scene there are a lot of context in which a debugger could be used.
+1. In the "reverse engineering" scene there are a lot of context in which a debugger could be used.
 All the features has been coded and tested on different scenarios and thanks to the community (and a lot of if else) it handle most of the cases, but not all of them.
 You could meet issues, and probably you will have to patch some code.
 
-> if you are looking for something that gives you magic powers without the necessary environment, this is not the case and you should switch to another tool. 
+2. if you are looking for something that gives you magic powers without the necessary environment, this is not the case and you should switch to another tool. 
 Dwarf is coded also to give some space to work with an unrooted Android (in example), but most of the features would just not work.
 Most of the effort has been spent into bringing compatibility for Windows, aka.. all paths bring to Rome, but linux is the best vehicle.
 
@@ -40,10 +40,10 @@ Most of the effort has been spent into bringing compatibility for Windows, aka..
 
 ## Why you **should** give a try to Dwarf:
 
-* because I'm sure you could find one of the [features](./features.html) very useful for the reason that takes you here.
-* it's opensource
-* it's built on top of the best technologies in terms of reverse engineering [frida](http://frida.re), [capstone](http://www.capstone-engine.org/), 
+1. because I'm sure you could find one of the [features](./features.html) very useful for the reason that takes you here.
+2. it's open-source
+3. it's built on top of the best technologies in terms of reverse engineering [frida](http://frida.re), [capstone](http://www.capstone-engine.org/), 
 [keystone](http://www.keystone-engine.org/), [apktool](https://ibotpeaches.github.io/Apktool/), and so on
-* the guys behind the scenes are always up on [slack](https://join.slack.com/t/resecret/shared_invite/enQtMzc1NTg4MzE3NjA1LTlkNzYxNTIwYTc2ZTYyOWY1MTQ1NzBiN2ZhYjQwYmY0ZmRhODQ0NDE3NmRmZjFiMmE1MDYwNWJlNDVjZDcwNGE)
+4. the guys behind the scenes are always up on [slack](https://join.slack.com/t/resecret/shared_invite/enQtMzc1NTg4MzE3NjA1LTlkNzYxNTIwYTc2ZTYyOWY1MTQ1NzBiN2ZhYjQwYmY0ZmRhODQ0NDE3NmRmZjFiMmE1MDYwNWJlNDVjZDcwNGE)
 ready to discuss new stuffs to implement
 * because it kick asses

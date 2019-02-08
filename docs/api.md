@@ -8,8 +8,7 @@ nav_order: 4
 {: .no_toc }
 
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
+all the [frida](https://www.frida.re/docs/javascript-api) api are available to be used while scripting with Dwarf
 
 ## Table of contents
 {: .no_toc .text-delta }

@@ -46,4 +46,4 @@ Most of the effort has been spent into bringing compatibility for Windows, aka..
 [keystone](http://www.keystone-engine.org/), [apktool](https://ibotpeaches.github.io/Apktool/), and so on
 4. the guys behind the scenes are always up on [slack](https://join.slack.com/t/resecret/shared_invite/enQtMzc1NTg4MzE3NjA1LTlkNzYxNTIwYTc2ZTYyOWY1MTQ1NzBiN2ZhYjQwYmY0ZmRhODQ0NDE3NmRmZjFiMmE1MDYwNWJlNDVjZDcwNGE)
 ready to discuss new stuffs to implement
-* because it kick asses
+5. because it kick asses

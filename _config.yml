@@ -1,5 +1,6 @@
 theme: just-the-docs
 name: Dwarf debugger
+title: Dwarf debugger
 description: Full featured multi arch/os debugger built on top of PyQt5 and frida
 baseurl: /DwarfWebsite
 

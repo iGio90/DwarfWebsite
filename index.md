@@ -38,7 +38,7 @@ Most of the effort has been spent into bringing compatibility for Windows, aka..
 
 ----
 
-## Why you **should** give a try to Dwarf:
+## Why you **should** give it a try:
 
 1. because I'm sure you could find one of the [features](./features.html) very useful for the reason that takes you here.
 2. it's open-source

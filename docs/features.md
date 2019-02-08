@@ -7,17 +7,28 @@ nav_order: 2
 # Features
 {: .no_toc }
 
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ---
 
+
+* android applications dump and decompilation
+* api to exchange data with the ui
+* backtrace
+* breakpoints solib initializations (Android)
+* breakpoints logic and condition
+* disassemble view with assembler patcher
+* emulator with steps and first operand highlight
+* export, import, symbols, ranges
+* hex view with bytes/string patcher, pointer jumps, quick breakpoints etc.
+* jvm explorer / java side debugging (Android)
+* javascript code injector accepting frida and dwarf api (runtime)
+* javascript console accepting frida and dwarf api
+* kernel support (Dwarf LKM)
+* memory watchers (watchpoints)
+* python console
+* registers with recursive values
+* single thread breakpoints
+* single thread java breakpoints (Android)
+* single thread tracer
+* switch between multiple threads
 
 

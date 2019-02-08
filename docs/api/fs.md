@@ -28,14 +28,14 @@ var buf = fs.allocateRw(1024);
 
 ---
 
-##### fclose
-##### fgets
-##### fileno
-##### fopen
-##### fputs
-##### getline
-##### popen
-##### pclose
+#### fclose
+#### fgets
+#### fileno
+#### fopen
+#### fputs
+#### getline
+#### popen
+#### pclose
 
 ```javascript
 // real example from base library

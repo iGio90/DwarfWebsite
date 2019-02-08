@@ -5,10 +5,7 @@ remote_theme: allejo/jekyll-docs-theme
 
 name: Dwarf debugger
 
-site:
-  url: https://igio90.github.io/DwarfWebsite
-
-baseurl: https://igio90.github.io/DwarfWebsite
+baseurl: DwarfWebsite
 
 project:
   version: 1.0.0

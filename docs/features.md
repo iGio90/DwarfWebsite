@@ -14,16 +14,16 @@ nav_order: 2
 * api to exchange data with the ui
 * backtrace
 * breakpoints solib initializations (Android)
-* breakpoints logic and condition
 * disassemble view with assembler patcher
 * emulator with steps and first operand highlight
 * export, import, symbols, ranges
 * hex view with bytes/string patcher, pointer jumps, quick breakpoints etc.
 * jvm explorer / java side debugging (Android)
-* javascript code injector accepting frida and dwarf api (runtime)
+* javascript code injector accepting frida and dwarf api
 * javascript console accepting frida and dwarf api
 * kernel support (Dwarf LKM)
-* memory watchers (watchpoints)
+* individual breakpoints logic and condition
+* memory watchers for read and write access
 * python console
 * registers with recursive values
 * single thread breakpoints

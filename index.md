@@ -21,16 +21,16 @@ Full featured multi arch/os debugger built on top of PyQt5 and frida
 As the title suggest, dwarf is a debugger, built on top of various frameworks and logics to simplify my life in reverse engineering tasks.
 In the beginning, it was an experiment and a first approach to PyQt in the attempt to give an ui to [frida](http://frida.re).
 It was mainly designed to work on Android but later, with a small effort, the support for iOS as been added with ease since they share the same arch.
-Nowadays, mainly thanks to the community effort and the sure fact that opensource is the path (and of course to the power of [frida](http://frida.re),
+Nowadays, mainly thanks to the community effort and the sure fact that open-source is the path (and of course to the power of [frida](http://frida.re),
 Dwarf can debug on any operating system as a target and run on any desktop operating system (thanks to PyQt).
 
 ---
 
 ## Why you **shouldn't** use Dwarf.
 
-> it's designed at needed. In the "reverse engineering" scene there are a lot of context in which a debugger could be used.
+> In the "reverse engineering" scene there are a lot of context in which a debugger could be used.
 All the features has been coded and tested on different scenarios and thanks to the community (and a lot of if else) it handle most of the cases, but not all of them.
-You could meet issues, and probably you will have to patch some code... that's not a big deal as the code base is pretty well structured
+You could meet issues, and probably you will have to patch some code.
 
 > if you are looking for something that gives you magic powers without the necessary environment, this is not the case and you should switch to another tool. 
 Dwarf is coded also to give some space to work with an unrooted Android (in example), but most of the features would just not work.

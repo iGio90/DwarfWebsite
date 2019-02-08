@@ -1,5 +1,3 @@
-## Dwarf debugger
-
 ![Dwarf](https://github.com/iGio90/Dwarf/raw/master/ui/dwarf.png) 
 
 --------

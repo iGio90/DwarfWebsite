@@ -6,7 +6,7 @@ nav_order: 3
 
 # Installation
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
+Dwarf vs your first target
 {: .fs-6 .fw-300 }
 
 ---
@@ -21,7 +21,13 @@ git clone https://github.com/iGio90/Dwarf
 
 pip3 install -r requirements.txt
 
+
+# start the ui allowing process pick/spawn
 python3 dwarf.py
+
+# start the ui straight vs the target
+python3 dwarf.py -p com.my.target -sp
+
 ```
 
 ### Optionally

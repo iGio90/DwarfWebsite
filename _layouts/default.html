@@ -12,7 +12,9 @@
       <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
       <div class="navigation main-nav js-main-nav">
         <p style="text-align:center; margin-bottom: 3.5em">
-          <img src="{{ site.url }}{{ site.baseurl }}{{ site.icon }}">
+          <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">
+            <img src="{{ site.url }}{{ site.baseurl }}{{ site.icon }}">
+          </a>
         </p>
 
         {% include nav.html %}

@@ -4,8 +4,8 @@ gems:
 remote_theme: allejo/jekyll-docs-theme
 
 name: Dwarf debugger
-
-baseurl: DwarfWebsite
+description: Full featured multi arch/os debugger built on top of PyQt5 and frida
+baseurl: DwarfWebsite/
 
 project:
   version: 1.0.0

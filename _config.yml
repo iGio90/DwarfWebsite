@@ -6,8 +6,8 @@ baseurl: /DwarfWebsite
 icon: /dwarf.png
 
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
+  "GitHub":
+    - "https://github.com/iGio90/Dwarf"
 
 color_scheme: "dark"
 

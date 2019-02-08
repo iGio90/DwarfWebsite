@@ -5,33 +5,61 @@ parent: Api
 nav_order: 2
 ---
 
-# Emulator
+# emulator
 {: .no_toc }
 
 
-all the [frida](https://www.frida.re/docs/javascript-api) api are available to be used while scripting with Dwarf
+emulator javascript api are built to expose a way to interact with [unicorn emulator](https://www.unicorn-engine.org/).
+
 
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+* TOC
 {:toc}
 
 ---
 
-## api
+## clean
+```javascript
+emulator.clean();
+```
 
-#### apitest
+> clean the ui, unmap all regions and start from the initial context
 
-## emulator
+---
 
-#### apitest
+## setup
+```javascript
+emulator.setup(Process.getCurrentThreadId());
+```
 
-## fs
+> setup the emulator with the context hooked at specified thread id
 
-#### open
+---
 
-#### popen
+## start
+```javascript
+var stopEmulationAt = 0xdeadbeef;
+emulator.start(stopEmulationAt);
+```
 
-## kernel
+> start the emulation until exception or ``stopEmulationAt`` address is hit
 
+---
+
+## step
+```javascript
+emulator.step();
+```
+
+> step to the next instruction
+
+---
+
+## stop
+```javascript
+emulator.stop();
+```
+
+> stop the emulation

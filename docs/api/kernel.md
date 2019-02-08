@@ -5,33 +5,50 @@ parent: Api
 nav_order: 4
 ---
 
-# Kernel
+# kernel
 {: .no_toc }
 
 
-all the [frida](https://www.frida.re/docs/javascript-api) api are available to be used while scripting with Dwarf
+kernel class speaks with [dwarf kernel module](https://github.com/iGio90/Dwarf-LKM) to provide some useful stuffs from the kernel space.
 
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+* TOC
 {:toc}
 
 ---
 
-## api
+## available
+```javascript
+kernel.available();
+```
 
-#### apitest
+> return a string indicating if the process can speak with dwarf kernel module
 
-## emulator
+---
 
-#### apitest
+## enable
+```javascript
+kernel.enable();
+```
 
-## fs
+> enable kernel features on dwarf UI if the module is loaded 
 
-#### open
+---
 
-#### popen
+## lookupSymbol
+```javascript
+kernel.lookupSymbol('sys_call_table');
+```
 
-## kernel
+> return the pointer of the symbol specified in arg0
 
+---
+
+## root
+```javascript
+kernel.root();
+```
+
+> elevate the calling process to root

@@ -9,7 +9,7 @@ nav_order: 6
 {: .no_toc }
 
 
-all the [frida](https://www.frida.re/docs/javascript-api) api are available to be used while scripting with Dwarf
+all functions from [frida Thread](https://www.frida.re/docs/javascript-api#Thread) are available.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -19,19 +19,11 @@ all the [frida](https://www.frida.re/docs/javascript-api) api are available to b
 
 ---
 
-## api
+## new
+```javascript
+Thread.new(function() {
+    // do stuffs
+});
+```
 
-#### apitest
-
-## emulator
-
-#### apitest
-
-## fs
-
-#### open
-
-#### popen
-
-## kernel
-
+> spawn a new thread using posix C api pthread_create

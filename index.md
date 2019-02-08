@@ -1,12 +1,8 @@
-![Dwarf](https://github.com/iGio90/Dwarf/raw/master/ui/dwarf.png) 
-
---------
-
 `home` - [features](./features.html) - [install](./install.html) - [api](./api.html) - [examples](./examples.html)
 
 --------
 
-<br>
+![Dwarf](https://github.com/iGio90/Dwarf/raw/master/ui/dwarf.png) 
 
 ### What is Dwarf
 
@@ -16,7 +12,6 @@ It was mainly designed to work on Android but later, with a small effort, the su
 Nowadays, mainly thanks to the community effort and the sure fact that opensource is the path (and of course to the power of [frida](http://frida.re),
 Dwarf can debug on any operating system as a target and run on any desktop operating system (thanks to PyQt).
 
-### Why you should/shouldn't use Dwarf
 > #### Why you **shouldn't** use Dwarf.
 
 * it's designed at needed. In the "reverse engineering" scene there are a lot of context in which a debugger could be used.

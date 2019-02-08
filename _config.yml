@@ -33,14 +33,14 @@ share:
 
 urls:
     - text: About Me
-      url: ./about.html
+      url: ./about/
     - text: My Projects
-      url: ./projects.html
+      url: ./projects/
     - text: XML Feed
       url: ./feed.xml
 
 url: "https://igio90.github.io"
-baseurl: "DwarfWebsite"
+baseurl: "/DwarfWebsite"
 paginate: 20
 per_page: 20
 paginate_path: "./page/:num/"

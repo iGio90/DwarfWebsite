@@ -15,7 +15,7 @@ functions to exchange data with the ui and perform operations while scripting.
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+* TOC
 {:toc}
 
 ---

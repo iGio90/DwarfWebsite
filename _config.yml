@@ -5,16 +5,18 @@ remote_theme: allejo/jekyll-docs-theme
 
 name: Dwarf debugger
 
+site:
+  url: https://igio90.github.io/DwarfWebsite
+
+baseurl: https://igio90.github.io/DwarfWebsite
+
 project:
   version: 1.0.0
   download_url: https://github.com/iGio90/Dwarf
 
 license:
-  software: MIT License
-  software_url: http://opensource.org/licenses/MIT
-
-  docs: CC BY 3.0
-  docs_url: http://creativecommons.org/licenses/by/3.0/
+  software: GPL-3.0 License
+  software_url: https://github.com/iGio90/Dwarf/blob/master/LICENSE
 
 links:
   header:

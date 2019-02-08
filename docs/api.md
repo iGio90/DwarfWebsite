@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Api
+title: Configuration
 nav_order: 2
 ---
 
-# Api
+# Configuration
 {: .no_toc }
 
 

@@ -2,7 +2,7 @@
 
 --------
 
-[home](./index.html) - [features](./features.html) - [api](./api.html) - `examples`
+[home](./index.html) - [features](./features.html) - [install](./install.html) - [api](./api.html) - `examples`
 
 --------
 

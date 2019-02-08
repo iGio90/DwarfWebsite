@@ -1,10 +1,10 @@
 ---
-layout: page
-title: Api
+layout: default
+title: Features
 nav_order: 2
 ---
 
-# Configuration
+# Features
 {: .no_toc }
 
 

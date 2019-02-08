@@ -1,10 +1,10 @@
 ---
-layout: page
-title: Api
+layout: default
+title: Examples
 nav_order: 5
 ---
 
-# Configuration
+# Examples
 {: .no_toc }
 
 

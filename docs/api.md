@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Api
 nav_order: 4
 ---
